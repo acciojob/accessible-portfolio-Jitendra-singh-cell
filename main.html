@@ -7,6 +7,44 @@
 </head>
 
 <body>
+	 <!-- Navigation Bar with ARIA role -->
+    <nav role="navigation" aria-label="Main navigation">
+        <ul role="list">
+            <li role="listitem"><a href="#about">About Me</a></li>
+            <li role="listitem"><a href="#projects">Projects</a></li>
+            <li role="listitem"><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Portfolio Heading with ARIA role -->
+    <header>
+        <h1 role="heading" aria-level="1">My Accessible Portfolio</h1>
+    </header>
+
+    <!-- Image with ARIA role and alt attribute -->
+    <section>
+        <img src="profile.jpg" alt="My profile picture" role="img">
+    </section>
+
+    <!-- Brief Description -->
+    <section id="about">
+        <p>Hello! I’m a web developer focused on creating accessible, user-friendly websites. Below are some of my recent projects.</p>
+    </section>
+
+    <!-- List of Projects with ARIA roles -->
+    <section id="projects">
+        <h2 role="heading" aria-level="2">Recent Projects</h2>
+        <ul role="list">
+            <li role="listitem">Project 1: Accessible Website Design</li>
+            <li role="listitem">Project 2: Responsive Web Application</li>
+            <li role="listitem">Project 3: E-commerce Platform</li>
+        </ul>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <p>Contact me at: myemail@example.com</p>
+    </footer>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>

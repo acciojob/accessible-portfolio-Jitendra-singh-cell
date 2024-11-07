@@ -1,2 +1,50 @@
 
 /* Your CSS Code here. */
+/* Basic styling for navigation */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Styling the heading */
+h1 {
+    font-size: 2.5em;
+    margin-top: 20px;
+}
+
+/* Image styling */
+img {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    display: block;
+    margin: 20px 0;
+}
+
+/* Project list styling */
+ul {
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+footer {
+    margin-top: 30px;
+    font-size: 1.1em;
+}
